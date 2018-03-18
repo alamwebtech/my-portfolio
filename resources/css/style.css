@@ -49,36 +49,31 @@ header{
 
 .main-nav li{
     display: inline-block;
-    margin: 10px;
+    margin: 7px;
 }
 
 .main-nav li a {
-    color: #ec2027;
     text-decoration: none;
-    font-family: 'mili';
+    font-family: 'muli';
+    font-size: 0.76em;
+    
 }
+
 
 /*
-.btn{
-    padding: 10px 30px;
-    font-weight: 300;
-    
-}
 
-a.btn.btn-full{
-    background-color: black;
-    
-}*/
+----BUTTONS-----
 
+*/
 
 .btn:link,
 .btn:visited,
 input[type=submit] {
     display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300;
+    padding: 8px 25px;
+    font-weight: 500;
     text-decoration: none;
-    border-radius: 200px;
+    border-radius: 300px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
@@ -87,37 +82,31 @@ input[type=submit] {
 .btn-full:visited,
 input[type=submit] {
     background-color: #4c4cff;
-/*    background-color: #e67e22;*/
-/*    border: 1px solid #e67e22;*/
-    border: 1px solid #0073b1;
+    border: 1px solid #4c4cff;
     color: #fff;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-/*
-    border: 1px solid #e67e22;
-    color: #e67e22;
-*/
-    border: 1px solid #0073b1;
-    color: #0073b1;
+    border: 1px solid #4c4cff;
+    color: color: #000;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #0076b1;
+    background-color: #2a2aff;
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #0076b1;
+    border: 1px solid #4c4cff;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #0076b1;
+    border: 1px solid #4c4cff;
     color: #fff;
 }
