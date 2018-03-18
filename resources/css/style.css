@@ -36,13 +36,13 @@ header{
 
 .row{
     max-width: 1300px;
-    margin: 0 auto;
+/*    margin: 0 auto;*/
 }
 
 #name-img{
     float: right;
-    padding-top: 9%;
-    padding-left:10%;
+    padding-top: 10%;
+    padding-left:20%;
     padding-right: 8%;
 }
 
@@ -55,20 +55,40 @@ header{
 .main-nav li{
     display: inline-block;
     margin: 5px;
+    padding: 9px 10px;
+    font-weight: 500;
+    
+    
 }
 
 .main-nav li a:link
 .main-nav li a:visited{
-    text-decoration: none;
     font-family: 'muli';
    
 }
 
 
+/*
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid  #4c4cff;
+    transition: border-bottom 0.2s;
 }
+*/
+
+
+
+
+/*
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 6px 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+*/
 
 
 /*
@@ -76,19 +96,6 @@ header{
 ----BUTTONS-----
 
 */
-.btn-full:link,
-.btn-full:visited{
-   
-}
-
-.btn:link,
-.btn:visited,
-input[type=submit] {
-    display: inline-block;
-    padding: 8px 25px;
-    font-weight: 500;
-    text-decoration: none;
-}
 
 .btn-full:link,
 .btn-full:visited,
@@ -96,8 +103,12 @@ input[type=submit] {
     background-color: #4c4cff;
     border: 1px solid #4c4cff;
     color: #fff;
-    border-radius: 300px;
+    border-radius: 200px;
     font-size: 0.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 10px;
+    
     
 }
 
@@ -106,11 +117,24 @@ input[type=submit] {
 .btn-full:active {
     border: 1px solid #4c4cff;
     background-color: #2a2aff;
+    transition: background-color 0.2s;
+    
 }
 
-.btn-ghost{
+.btn-ghost:link,
+.btn-ghost:visited{
     font-size: 0.7em;
     color: #000;
      text-transform: uppercase;
+    transition: border-bottom 0.2s;
+    text-decoration: none;
+   
+    
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    border-bottom: 2px solid  #4c4cff;
+    transition: border-bottom 0.2s;
+    padding: 4px 0;
 }
 
