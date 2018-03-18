@@ -34,29 +34,40 @@ header{
     background-attachment: fixed;
 }
 
+.row{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 #name-img{
     float: right;
     padding-top: 9%;
-    padding-left: 27%;
-    padding-right: 9%;
+    padding-left:10%;
+    padding-right: 8%;
 }
-
 
 .main-nav{
     float: right;
     list-style: none;
+    
 }
 
 .main-nav li{
     display: inline-block;
-    margin: 7px;
+    margin: 5px;
 }
 
-.main-nav li a {
+.main-nav li a:link
+.main-nav li a:visited{
     text-decoration: none;
     font-family: 'muli';
-    font-size: 0.76em;
-    
+   
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid  #4c4cff;
 }
 
 
@@ -65,6 +76,10 @@ header{
 ----BUTTONS-----
 
 */
+.btn-full:link,
+.btn-full:visited{
+   
+}
 
 .btn:link,
 .btn:visited,
@@ -73,9 +88,6 @@ input[type=submit] {
     padding: 8px 25px;
     font-weight: 500;
     text-decoration: none;
-    border-radius: 300px;
-    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
@@ -84,29 +96,21 @@ input[type=submit] {
     background-color: #4c4cff;
     border: 1px solid #4c4cff;
     color: #fff;
-    margin-right: 10px;
+    border-radius: 300px;
+    font-size: 0.8em;
+    
 }
 
-.btn-ghost:link,
-.btn-ghost:visited {
-    border: 1px solid #4c4cff;
-    color: color: #000;
-}
-
-.btn:hover,
-.btn:active,
-input[type=submit]:hover,
-input[type=submit]:active {
-    background-color: #2a2aff;
-}
 
 .btn-full:hover,
 .btn-full:active {
     border: 1px solid #4c4cff;
+    background-color: #2a2aff;
 }
 
-.btn-ghost:hover,
-.btn-ghost:active {
-    border: 1px solid #4c4cff;
-    color: #fff;
+.btn-ghost{
+    font-size: 0.7em;
+    color: #000;
+     text-transform: uppercase;
 }
+
