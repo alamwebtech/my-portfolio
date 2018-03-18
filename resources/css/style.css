@@ -58,11 +58,66 @@ header{
     font-family: 'mili';
 }
 
+/*
 .btn{
     padding: 10px 30px;
     font-weight: 300;
+    
 }
 
 a.btn.btn-full{
-    background: 0074e1;
+    background-color: black;
+    
+}*/
+
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #0073b1;
+/*    background-color: #e67e22;*/
+/*    border: 1px solid #e67e22;*/
+    border: 1px solid #0073b1;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+/*
+    border: 1px solid #e67e22;
+    color: #e67e22;
+*/
+    border: 1px solid #0073b1;
+    color: #0073b1;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #0076b1;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #0076b1;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #0076b1;
+    color: #fff;
 }
