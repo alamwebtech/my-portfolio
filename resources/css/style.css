@@ -44,7 +44,7 @@ header{
 }
 
 .row{
-    max-width: 1140px;
+    max-width: 1135px;
     margin: 0 auto;
 }
 
@@ -52,7 +52,6 @@ header{
     float: right;
     padding-top: 10%;
     padding-left:20%;
-    padding-right: 8%;
 }
 
 .main-nav{
