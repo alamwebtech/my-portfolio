@@ -2,8 +2,9 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial=scale=1.0">
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900" rel="stylesheet">
@@ -15,7 +16,7 @@
                 <div class="row">
                     <ul class="main-nav">
                         <li>
-                        <a  class="btn btn-full" href="#">Personal</a>
+                        <a  class="btn btn-full" href="#about">Personal</a>
                         </li>
                         <li>
                         <a  class="btn btn-ghost" href="#">Skills</a>
@@ -38,7 +39,7 @@
             
         <div class="row">
             <div class="col span-1-of-1" id="name-img"> 
-                <img src="resources/img/md.png" alt="MD SHAFIUl ALAM">
+                <img src="resources/img/md.png" alt="MD SHAFIUl ALAM" class="name-screen js--wp-1">
             </div>
         </div>
         
@@ -46,9 +47,9 @@
         
 <!-- SECTION ABOUT ME  -->
         
-        <section class="section-about-me">
+        <section class="section-about   js--section-about" id="about">
             <div class="row">
-                <h2>About me</h2>
+                <h2 class="js--scroll-to-about">About me</h2>
                 <p class="long-copy">Name: Md. Shafiul Alam. <br> 
                     Born: Republic of Bangladesh, <br>
                     Residence: Currently resident in Philadelphia, PA  <br>
@@ -56,12 +57,12 @@
                 </p>
             </div>
             
-             <div class="row js--wp-1">
+             <div class="row js--wp-2">
                 <div class="col span-1-of-3 box">
                     <i class="ion-ios-book icon-big"></i>
 
                     <h3>Education </h3>
-                       <p>January 2018: Graduated with a Diploma Certificate in Web Development Intensive Course (420 Hours) from New York Code + Design Academy      in Philadelphia.
+                       <p>January 2018: Graduated with a Diploma Certificate in Web Development Intensive Course (420 Hours) from New York Code + Design Academy      in Philadelphia. <br>
                        2015 - May 2016: Masters Degree in Computer Science in Information Systems. Graduated from Rivier University in Nashua, New Hampshire, USA.2010 - April 2014: Bachelors Degree in Information Technology, Graduated from the Kuala Lumpur Metropolitan University College, Malaysia.
                        </p>
                 </div>
@@ -69,7 +70,8 @@
                 <div class="col span-1-of-3 box">
                     <i class="ion-bowtie icon-big"></i>
                     <h3>Career </h3>
-                        <p>It is my intention to pursue my career in the United States of America and to that end I am engaged in studying to widen my range of skills in my chosen field. I am aware of the importance of adapting to the business ethos of the US where hard work is rewarded - both in team- work and through individual enterprise and initiative.
+                        <p>It is my intention to pursue my career in the United States of America and to that end I am engaged in studying to widen my range of skills in my chosen field.  <br>
+                        I am aware of the importance of adapting to the business ethos of the US where hard work is rewarded - both in team- work and through individual enterprise and initiative.
                         </p>
                 </div>
             
@@ -89,7 +91,11 @@
 
   
 
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
         
          <script src="resources/js/script.js"> </script>
         
