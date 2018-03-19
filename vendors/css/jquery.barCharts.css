@@ -17,7 +17,7 @@
 .barChart__label {
     float: left;
     padding-right: 10px;
-    width: 50px;
+    width: 70px;
 }
 
 .barChart__value {
@@ -29,13 +29,17 @@
 .barChart__bar {
     display: block;
     overflow: hidden;
-    background: grey;
+    background: #333;
     height: 18px;
 }
 
-.barChart__barFill {
+.barChart__barFill{
     display: block;
     height: 100%;
     width: 0;
-    background: red;
+/*    background: #fc2e25;*/
+	background: #f97535;
 }
+
+
+

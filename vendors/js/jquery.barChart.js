@@ -8,7 +8,7 @@
                 // defaults
                 type: 'horizontal',
                 easing: 'swing',
-                animationSpeed: 2000,
+                animationSpeed: 15000,
                 rowClass: 'barChart__row',
                 fillClass: 'barChart__barFill'
             }, options);
