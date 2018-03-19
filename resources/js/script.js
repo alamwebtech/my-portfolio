@@ -51,5 +51,30 @@ $(".js--wp-1").waypoint(function(direction){
 	
 	
 	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     
     });
