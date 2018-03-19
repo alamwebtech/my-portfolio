@@ -14,7 +14,7 @@ $(".js--wp-1").waypoint(function(direction){
      });
 	
 	
-	
+
 	
 	$(".js--wp-2").waypoint(function(direction){
          $(".js--wp-2").addClass("animated fadeIn");
@@ -23,6 +23,12 @@ $(".js--wp-1").waypoint(function(direction){
          offset: "50%"
      });
 
+	$(".js--wp-3").waypoint(function(direction){
+         $(".js--wp-3").addClass("animated fadeInRight");
+       
+       }, {
+         offset: "50%"
+     });
 	
 	/*-----SCROLL ON BUTTON-----*/
     
@@ -31,6 +37,9 @@ $(".js--wp-1").waypoint(function(direction){
         $("html, body").animate({scrollTop: $(".js--section-about").offset().top}, 1000);
     });
     
+	$(".js--scroll-to-skills").click(function(){
+        $("html, body").animate({scrollTop: $(".js--section-skills").offset().top}, 12000);
+    });
 	
 	
 	$('a[href*="#"]:not([href="#"])').click(function () {
