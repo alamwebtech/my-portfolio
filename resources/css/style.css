@@ -16,6 +16,7 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+	margin: 0;
     
 }
 
@@ -44,7 +45,7 @@ header{
 }
 
 .row{
-    max-width: 1135px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -52,6 +53,9 @@ header{
     float: right;
     padding-top: 10%;
     padding-left:20%;
+}
+.name-screen {
+    width: 90%;
 }
 
 .main-nav{
@@ -218,9 +222,74 @@ h2:after {
     display: block;
     color: #4c4cff;
     margin-bottom: 10px;
+	text-align: center;
 }
 
 
 .section-about-me .long-copy {
     margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------- */
+/* Animations */
+/* ----------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+
+
+.js--wp-1.animated,
+.js--wp-2.animated
+ {
+    opacity: 1;
 }
