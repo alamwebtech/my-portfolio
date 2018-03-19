@@ -15,10 +15,13 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
 	margin: 0;
+/*	height: 100%;*/
+	overflow: visible;
     
 }
+
 
 .clearfix {zoom: 1;}
 .clearfix:after {
@@ -45,7 +48,7 @@ header{
 }
 
 .row{
-    max-width: 1140px;
+    max-width: 1120px;
     margin: 0 auto;
 }
 
@@ -229,17 +232,6 @@ h2:after {
 .section-about-me .long-copy {
     margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
