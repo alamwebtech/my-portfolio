@@ -10,11 +10,11 @@ $(".js--wp-1").waypoint(function(direction){
          $(".js--wp-1").addClass("animated fadeInUp");
        
        }, {
-         offset: "50%"
-     });
+	offset: "50%"
+});
 	
 	
-
+/*  ------ABOUT ME ANIMATION----*/
 	
 	$(".js--wp-2").waypoint(function(direction){
          $(".js--wp-2").addClass("animated fadeIn");
@@ -22,6 +22,8 @@ $(".js--wp-1").waypoint(function(direction){
        }, {
          offset: "50%"
      });
+	
+	/*  ------SKILLS ANIMATION----*/
 
 	$(".js--wp-3").waypoint(function(direction){
          $(".js--wp-3").addClass("animated fadeInRight");
@@ -30,15 +32,54 @@ $(".js--wp-1").waypoint(function(direction){
          offset: "50%"
      });
 	
-	/*-----SCROLL ON BUTTON-----*/
+	/*  ------PROJECTS ANIMATION----*/
+	
+	$("#js--wp-4").waypoint(function(direction){
+         $("#js--wp-4").addClass("animated fadeIn");
+       
+       }, {
+         offset: "50%"
+     });
+	
+
+	$("#js--wp-5").waypoint(function(direction){
+         $("#js--wp-5").addClass("animated fadeIn");
+       
+       }, {
+         offset: "50%"
+     });
+	
+	
+	
+	/*-----SCROLL ON BUTTON ANIMATION-----*/
     
     
+	
+	/*  ------TO ABOUT----*/
+	
     $(".js--scroll-to-about").click(function(){
         $("html, body").animate({scrollTop: $(".js--section-about").offset().top}, 1000);
     });
+	
+	/*  ------TO SKILLS----*/
     
 	$(".js--scroll-to-skills").click(function(){
-        $("html, body").animate({scrollTop: $(".js--section-skills").offset().top}, 12000);
+        $("html, body").animate({scrollTop: $(".js--section-skills").offset().top}, 1000);
+    });
+	
+	/*  ------TO PROJECTS----*/
+	
+	
+	$(".js--scroll-to-projects").click(function(){
+        $("html, body").animate({scrollTop: $(".js--section-projects").offset().top}, 1000);
+    });
+	
+	
+	/*  ------TO CONTACT----*/
+	
+	
+	$(".js--scroll-to-contact").click(function(){
+        $("html, body").animate({scrollTop: $(".js--section-contact").offset().top}, 1000);
     });
 	
 	
