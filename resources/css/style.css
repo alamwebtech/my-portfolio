@@ -188,7 +188,7 @@ h2 {
     letter-spacing: 1px;
 }
 
-h3 {
+.section-about h3 {
     font-size: 110%;
     margin-bottom: 15px;
 }
@@ -245,12 +245,35 @@ section#skills.sectoin-skills {
 
 /*-----SECTION PROJECTS -----*/
 
-
-.box img{
-	width: 110%;
-	height: auto;
+.section-projects{
+	margin-top: 5%;
 }
 
+p.view-project{
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.box img {
+    
+    width: 96%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.section-projects h3{
+	margin-top: 15px;
+}
+
+/*----IMAGE HOVER---*/
+
+
+
+.box img:hover {
+    transform: scale(1.03);
+}
 
 
 
