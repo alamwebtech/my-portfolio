@@ -1,6 +1,21 @@
 $(document).ready(function() {
     
-    /*
+    
+	/* ----STICKY NAV-----*/
+    
+    $(".js--section-about").waypoint(function(direction){
+        if(direction == "down"){
+            $("nav").addClass("sticky");
+        }else{
+            $("nav").removeClass("sticky");
+        }
+    }, {
+        offset: "60px;"
+    });
+	
+	
+	
+	/*
     
     ----NAME ANIMATION----
     
@@ -20,7 +35,7 @@ $(".js--wp-1").waypoint(function(direction){
          $(".js--wp-2").addClass("animated fadeIn");
        
        }, {
-         offset: "50%"
+         offset: "60%"
      });
 	
 	/*  ------SKILLS ANIMATION----*/
@@ -46,7 +61,7 @@ $(".js--wp-1").waypoint(function(direction){
          $("#js--wp-5").addClass("animated fadeIn");
        
        }, {
-         offset: "50%"
+         offset: "70%"
      });
 	
 	
