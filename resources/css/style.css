@@ -286,6 +286,7 @@ p.view-project{
 	height: 250px;
 	background: #262626;
 	position: relative;
+	margin-top: 40px;
 }
 
 .section-yellow{
@@ -293,6 +294,7 @@ p.view-project{
 	height: 20px;
 	background: #ffeb3b;
 	position: relative;
+	
 }
 
 .section-black:before{
@@ -303,7 +305,7 @@ p.view-project{
 	top: -50px;
 	left: 0;
 	background: #ffeb3b;
-	transform: skewY(4.5deg)
+	transform: skewY(5deg)
 }
 
 
@@ -315,7 +317,7 @@ p.view-project{
 	top: -50px;
 	right: 0;
 	background: #ffeb3b;
-	transform: skewY(-4.5deg)
+	transform: skewY(-5deg)
 }
 
 
