@@ -1,27 +1,96 @@
-/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
-    
+
+        .name-screen { width: 80%;}
+	    .row{padding: 0 2%;}
+	
 }
 
 
 /* Small tablet to big tablet: from 768px to 1023px */
+
 @media only screen and (max-width: 1023px) {
-   
+	.name-screen { width: 90%;}
+	#name-img{
+		padding-top: 15%;
+		padding-left:55%;
+     }
+	
+	.contact{
+	padding-top: 70px;
+	list-style: none;
+    }
+	body{ font-size: 18px;}
+	
+
+	h2{ margin-bottom: 20px;}  
+	.row.about-me{margin-top: -60px;}
+	.row.skill{margin-top: -20px;}
+	
 }
 
 
 
 /* Small phones to small tablets: from 481px to 767px */
+
 @media only screen and (max-width: 767px) {
    
-    
+		body{font-size:16px;}
+	    img.name-screen { 
+			width: 130%;
+			margin-top: 20px;
+			margin-left: -50px;
+	    }
+	
+		section{padding: 30px 0;}
+
+		.row{padding: 0 4%;}
+		.col{
+			width: 100%;
+	}
+		h1{font-size: 180%}
+		h2{font-size: 150%}
+	.footer-nav{
+		margin-top: 20px;
+	}
+	
+	.main-nav{display: none;}
 }
 
 
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    section { padding: 25px 0; }
-    .contact-form {width: 100%; }
+/
+    section { padding: 10px 0; }
+
+	.col{
+		width: 100%;
+	}
+	img.name-screen { 
+			width: 150%;
+			margin-top: 40px;
+			margin-left: -70px;
+	    }
+	h3{
+		margin-bottom: 10px;
+		font-size: 0.9em;
+	}
+	p.view-project{
+		margin-bottom: 18px;
+	}
+	h2.js--scroll-to-projects,
+	h2.js--scroll-to-skills,
+	h2.js--section-contact
+	{
+		margin-top: -15px;
+	}
+	.section-blue{
+	width: 100%;
+	height: -20%;
+
+	
+}
+	
 }
 
