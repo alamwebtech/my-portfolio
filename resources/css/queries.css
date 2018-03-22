@@ -7,7 +7,7 @@
 		
 		header{
 			font-size:16px;
-		    background: url(img/ipad.png);
+		    background-image: url(img/ipad.png);
 			max-width: 100%;
 			
 	
@@ -23,7 +23,7 @@
 		
 		header{
 			font-size:16px;
-		    background: url(img/ipad.png);
+		    background-image: url(img/ipad.png);
 			max-width: 100%;
 			
 
@@ -58,7 +58,7 @@
 
 		header{
 			font-size:16px;
-		    background: url(img/mobile.png);
+		    background-image: url(img/mobile.png);
 			max-width: 100%;
 			
 	
@@ -114,7 +114,7 @@
 		
 	     header{
 			font-size:16px;
-		    background: url(img/mobile.png);
+		    background-image: url(img/mobile.png);
 			 max-width: 100%;
 			
 
