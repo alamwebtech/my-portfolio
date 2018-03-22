@@ -2,13 +2,16 @@
 	@media only screen and (max-width: 1200px) {
 
 			.name-screen,
-		#name-img{ width: 80%;
+		#name-img{ 
 		display: none;}
 		
 		header{
 			font-size:16px;
-		    background-image: url("img/ipad.png");
+		    background: url(img/ipad.png);
 			max-width: 100%;
+			background-attachment: fixed;
+    background-position: center center;
+	
 		}
 			.row{padding: 0 2%;}
 
@@ -21,10 +24,11 @@
 		
 		header{
 			font-size:16px;
-		
-		    background-image: url("img/ipad.png");
+		    background: url(img/ipad.png);
 			max-width: 100%;
-		
+			background-attachment: fixed;
+    background-position: center center;
+
 		}
 		
 		#name-img{
@@ -56,9 +60,11 @@
 
 		header{
 			font-size:16px;
-		
-		    background-image: url("img/mobile.png");
+		    background: url(img/mobile.png);
 			max-width: 100%;
+			background-attachment: fixed;
+    background-position: center center;
+	
 		
 		}
 		
@@ -111,9 +117,11 @@
 		
 	     header{
 			font-size:16px;
-		    background-image: url("img/mobile.png");
-			max-width: 100%;
-		
+		    background: url(img/mobile.png);
+			 max-width: 100%;
+			 background-attachment: fixed;
+    background-position: center center;
+
 		}
 		
 		.section-about {
@@ -166,9 +174,7 @@
 			content: " ";
 			width: 50%;
 			height: 15px;
-			
-
-	}
+	    }
 
 
 	.section-black:after{
@@ -176,7 +182,7 @@
 		width: 50%;
 		height:15px;
 		
-	}
+	   }
 
 	}
 
