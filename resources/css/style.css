@@ -111,6 +111,26 @@ header{
 
 /*----STICKY NAVI-----*/
 
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 18px;
+	height: 55px;
+	width: 55px;
+}
+
+.logo-black { 
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
+
 
 .sticky{
 	position: fixed;
@@ -122,6 +142,8 @@ header{
 	box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }
+
+
 .sticky.main-nav li a:link
 .sticky.main-nav li a:visited{
     font-family: 'muli';
