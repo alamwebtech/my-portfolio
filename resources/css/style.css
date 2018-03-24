@@ -84,8 +84,12 @@ header{
     margin: 5px;
     padding: 9px 10px;
     font-weight: 500;
+	
     
     
+}
+a.btn.btn-ghost{
+	color: #0b7bf9;
 }
 
 .main-nav li a:link
@@ -108,6 +112,19 @@ header{
 	color: #000;
 	
 }
+
+
+/*----TIE-----*/
+
+
+.tie{
+	height: 90px;
+	width: 90px;
+	margin-top: 50%;
+    margin-left: 35%;
+	display: none;
+}
+
 
 
 /*----STICKY NAVI-----*/
@@ -195,33 +212,11 @@ input[type=submit] {
     padding: 4px 0;
 }
 
-/*
-.main-nav li a:hover,
-.main-nav li a:active{
-    border-bottom: 2px solid  #4c4cff;
-    transition: border-bottom 0.2s;
-}
-*/
 
 
-
-/*
-.btn:link,
-.btn:visited,
-input[type=submit] {
-    display: inline-block;
-    padding: 6px 10px;
-    font-weight: 500;
-    text-decoration: none;
-}
-*/
+/*----BUTTONS-----*/
 
 
-/*
-
-----BUTTONS-----
-
-*/
 
 .btn-full:link,
 .btn-full:visited,
