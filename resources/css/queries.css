@@ -13,6 +13,10 @@
   .row {
     padding: 0 2%;
   }
+/*----iPAD TIE-----*/
+  .tie {
+    display: none;
+  }
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -47,21 +51,67 @@
   .row.skill {
     margin-top: -20px;
   }
+
+  .btn-full:link,
+  .btn-full:visited,
+  input[type="submit"] {
+    background-color: #0b7bf9;
+    border: 1px solid #4c4cff;
+    color: #fff;
+    border-radius: 200px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 10px;
+    font-weight: 600;
+  }
+
+  ul li a {
+    letter-spacing: 2px;
+  }
+
+  .btn-full:hover,
+  .btn-full:active {
+    border: 1px solid #4c4cff;
+    background-color: #2a2aff;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+  }
+
+  .btn-ghost:link,
+  .btn-ghost:visited {
+    font-size: 0.87em;
+    color: #000;
+    text-transform: uppercase;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+    text-decoration: none;
+    font-weight: 900;
+  }
+
+  .btn-ghost:hover,
+  .btn-ghost:active {
+    border-bottom: 2px solid #4c4cff;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+    padding: 4px 0;
+  }
+/*----iPAD TIE-----*/
+  .tie {
+    display: none;
+  }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
 
-/*
-	@media only screen and (max-width: 767px) {
-		
-}
-*/
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-width: 767px) {
   header {
     font-size: 16px;
-    background-image: url(img/mobile.png);
+    background: #333;
     max-width: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   img.name-screen {
@@ -93,19 +143,26 @@
     display: inline-block;
   }
   .sticky .mobile-nav-icon {
-    margin-top: 10px;
+    margin-top: 20px;
+  }
+
+  .mobile-nav-icon i {
+    font-size: 180%;
+    color: #0b7bf9;
   }
 
   .main-nav {
     float: left;
-    margin-top: -7px;
+    margin-top: 1%;
     margin-left: 25px;
+    text-align: center;
+    font-size: 1.5em;
   }
 
   .main-nav li {
     display: block;
-    margin: 0 -10px -10px 0;
-    font-weight: 700;
+    margin: 0 auto;
+    font-weight: 900;
   }
 
   .main-nav li a:link,
@@ -114,14 +171,23 @@
     border: 0;
   }
 
-  /* STYLES GO HERE */
+  /*----MOBILE TIE-----*/
+
+  .tie {
+    display: block;
+  }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
   header {
     font-size: 16px;
-    background-image: url(img/mobile.png);
+    background: #333;
     max-width: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .section-about {
@@ -186,15 +252,33 @@
     height: 15px;
   }
 
- 
+  .mobile-nav-icon i {
+    font-size: 180%;
+    color: #0b7bf9;
+  }
+  .main-nav {
+    float: left;
+    margin-top: 1%;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .main-nav li {
+    display: block;
+    margin: 0 auto;
+    font-weight: 900;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+  }
+
+  /*----MOBILE TIE-----*/
+
+  .tie {
+    display: block;
+  }
 }
-
-
-/* Small phones: from 0 to 480px */
-
-/*
-	@media only screen and (max-width: 480px) {
-		
-	    
-	}
-*/
