@@ -472,7 +472,14 @@ p.view-project{
 
 /*----SECTION FOOTER----*/
 
-
+/*
+hr{
+text-align: center;
+	margin-left: 36.%;
+	margin-top: 7px;
+	
+}
+*/
 .section-footer{
 	margin-top: 40px;
 }
