@@ -472,14 +472,7 @@ p.view-project{
 
 /*----SECTION FOOTER----*/
 
-/*
-hr{
-text-align: center;
-	margin-left: 36.%;
-	margin-top: 7px;
-	
-}
-*/
+
 .section-footer{
 	margin-top: 40px;
 }
@@ -517,8 +510,8 @@ ul.social-links{
 }
 
 #socialIcon{
-	width: 30px;
-	height: 30px;
+	width: 38px;
+	height: 38px;
 }
 
 
